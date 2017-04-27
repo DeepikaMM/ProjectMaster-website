@@ -1,0 +1,56 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+	<title>CircularForm</title>
+	<link rel='stylesheet prefetch' href='jquery-ui.css'>
+
+        <link rel="stylesheet" href="style13.css">
+
+</head>
+<body>
+ <link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+ <div class="login">
+  <div class="login-header">
+	<h1>Circular Details</h1>
+	 
+	
+	</div>
+	<p id="Descr"></p>
+	<div class="login-form">
+	<form method="POST" action="circulardetails.php">
+		<table>
+			<tr>
+				<td>Sent by Guide ID</td>
+				<td><input type="text" name="g_id" /></td>
+			</tr>
+			
+			<tr>
+				<td> Circular Date </td>
+				<td><input type="text" name="c_date" /></td>
+			</tr>
+			
+			<tr>
+				<td> To Team ID </td>
+				<td><input type="text" name="t_id" /></td>
+			</tr>
+			
+			<tr>
+				<td> Circular Description </td>
+				<td><textarea rows="8" cols="50"  name="c_descp" ></textarea></td>
+			</tr>
+
+
+			<tr>
+				<td>Submit Here</td>
+				<td><input type="submit" value="Send!" /></td>
+			</tr>
+			
+		</table>	
+		</div>
+	</form>
+	<script src='jquery1.min.js'></script>
+<script src='jquery-ui.min.js'></script>
+
+        <script src="index5.js"></script>
+</body>
+</html>

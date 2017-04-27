@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+ <html>
+   <head><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <style>
+  
+  .popover-content {
+      background-color:black;
+      color:white;
+	font-size: 20px;
+     
+  }
+.bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #fff; /* White */
+      color: #555555;
+  }
+a:link {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ #header {
+                background-color:#808080;
+    		color:red;
+    		text-align:right;
+    		padding:0.02px;
+		
+       }
+#header2 {
+                background-color:#708090;
+    		color:black;
+    		display:inline;
+		clear:none;
+    		padding:0.01px;
+		font-size:5px;
+       }
+#header3 {
+    background-color:red;
+    color:brown;
+    text-align:center;
+    padding:.5px;
+	font-size:20px;
+	-webkit-animation: mymove 2s infinite; 
+    animation: mymove 2s infinite;
+	background-image: url("i.jpg");
+    background-color: #cccccc;
+	background-repeat:no-repeat;
+	background-size: 2000px 100px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#log{line-height:15px;
+     background-color:black;
+    height:200px;
+    width:100px;
+    float:left;
+    padding:1px;
+	
+}
+
+#nav{
+    line-height:35px;
+    background-color:brown;
+    height:250px;
+    width:275px;
+    float:left;
+    padding:5px;
+    font-size:15px;	 
+color:blue;	
+
+}
+#section {
+    width:350px;
+    height:500px;
+    float:left;
+	background-color:#80800;
+    padding:10px;
+	color:green;
+	font-size:20px;
+	
+	
+}
+#section3 {
+	
+    width:539px;
+    height:328px;
+    float:left;
+	background-color:brown;
+    padding:10px;
+	color:yellow;
+	font-size:20px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	
+}
+#section1 {
+    width:100%;
+    float:left;
+    padding:250px;
+	color:red;
+	font-size:20px;
+	
+	background-repeat:no-repeat;
+	background-size: 2000px 500px;
+	background-color:blue;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+div.img a:hover img {
+     
+	
+}
+div.img {
+    
+    padding: 0px;
+    
+    height: auto;
+    width:60%;
+    float: left;
+    text-align: center;
+     background-color:brown;
+	
+	
+}	
+div.img1 a:hover img {
+    
+	
+}
+div.img1 {
+    
+    padding: 0px;
+    
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+     background-color:white;
+	
+	
+}	
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+body  {
+    
+    background-color:brown;
+	background-repeat:no-repeat;
+	background-size: 1500px 800px;
+	color:yellow;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	
+}
+#section2 {
+	 width:350px;
+    float:left;
+	background-color:white;
+    padding:10px;
+	color:red;
+	font-size:20px;
+
+}
+    </style>
+    </head>
+    <body>
+	<div id="header">
+	<p style="word-spacing:10px;"><a href="form.html" target="blank"> sign Up</a> <a href="form1.html" target="blank" >log In </a> </p>
+	
+	</div>
+	<div id="header2" >
+	<h3 style="word-spacing:30px;"><a href="studentform.html" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Enter Your Details">STUDENTS</a> <a href="guideform.html"  data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Enter Your Guide Details">GUIDE</a><a href="projectform.html"  data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Enter Your Project Details"> PROJECT</a><a href="DepartmentForm.html"  data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Enter Your Department Details"> DEPARTMENT</a><a href="teamform.html"  data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="More Than One Student Are There Then Enter Your Team Details "> TEAM</a><a href="studentteamform.html"  data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Enter Your Team Details "> TEAMDETAILS</a><a href="commentform.html"  data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="You can comment on other projects"> COMMENT</a><a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Do you want write about any project"> BLOG</a> <button disabled>MORE</button></h3>
+        </div>
+	<div id="header3" onclick="changecolor()">
+<h1>Do You Wanna Create New Project</h1>
+</div>
+
+
+
+<div class="img">
+ <img src="4.png"/>
+ </div>
+
+<br>
+
+
+  <div class="row" >
+    <div class="col-md-3">
+      <p>
+
+</p>
+    </div>
+    <div class="col-md-3">        
+      <p>Project Management is an important topic because all organisations, be they large or small, at one time or other are involved in implementing new undertakings.</p>
+    </div>
+    <div class="col-md-3">        
+      <p>
+As a discipline modern project management developed from different fields of application including construction, engineering and defence.In this history of project management, I chart all the major developments and events in the discipline as far back as there are records.</p>      
+    </div>
+    <div class="col-md-3">        
+      <p>In 1965, Bulgarian company "Radioelektronika" presented on the Inforga-65 international exhibition in Moscow the mobile automatic phone combined with a base station. Solutions of this phone were based on a system developed by Leonid Kupriyanovich. One base station, connected to one telephone wire line, could serve up to 15 customers.</strong></p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="img">
+ <img id="image" onmouseenter="change()"  onmouseout="change1()"  src="5.gif"/>
+ </div>
+<div id="section3">
+<h2>Know More About Project Management</h2>
+<p>
+It is possible to say that the concept of project management has been around since the beginning of history. It has enabled leaders to plan bold and massive projects.
+</p>
+</div>
+<br>
+<div class="container-fluid bg-1 text-center">
+  <h3>HOW PROJECT MANAGEMENT DEVELOPED</h3>
+  <img src="2.jpg" class="img-circle" alt="Bird" width="650" height="350">
+  <h3>Here You Go  <a href="https://en.wikipedia.org/wiki/History_of_mobile_phones">History</a></h3>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3>Begining!!</h3>
+  <p>The 1950s marked the beginning of the modern project management era, prior to then projects were managed on an ad-hoc basis using mostly informal techniques and tools.</p>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Where To Find Us?</h3>
+  <p>This project has developed by three students of PESIT as DBMS project</p>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+
+
+
+function change()
+{
+image.src = "5.gif";
+
+}
+function change1()
+{
+image.src = "5.gif";
+
+}
+
+
+</script>
+    </body>
+ </html>
+<br>
+>
